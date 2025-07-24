@@ -2,16 +2,14 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     background-image: url("../images/壁紙例2.webp");
-    background-size: auto;
+    background-size: cover;
     background-repeat: repeat;
         font-family: "Kaisei Opti", serif;
     font-weight: 400;
     font-style: normal;
 }
-
 header{
     display: flex;
     align-items: center;
@@ -19,14 +17,12 @@ header{
     background-color: #D9EDDF;
     gap: 210px;
 }
-
 .mainvisual{
     width: auto;
     height: 900px;
     text-align: center;
     object-fit: fill; 
 }
-
 /* .mainvisual img{
     display: block;
     width: 100vw;
@@ -36,7 +32,6 @@ main{
     /* padding: 0 auto; */
         margin: 0 120px;
 }
-
 #gnavi{
     display: flex;
     list-style-type: none;
@@ -49,7 +44,6 @@ main{
     align-items: center;
     gap: 50px;
 }
-
 .consept-text{
     font-family: "Kaisei Opti", serif;
     font-weight: 400;
@@ -57,95 +51,64 @@ main{
     font-size: 32px;
     text-align: center;
 }
-
 .consept-text a{
     display: flex;
     justify-content: right;
 }
-
 .cafe-ex{
     /* width: 1320px; */
     display: flex;
     align-items: center;
     gap: 30px;
 }
-
 .work{
     gap: 75px;
     display: flex;
 }
-
 .write{
     gap: 27px;
     display: flex;
 }
-
 .talk{
     gap: 85px;
     display: flex;
 }
-
 .Website{
     gap: 75px;
     display: flex;
 }
-
 .leftimg{
     display: flex;
     gap: 75px;
 }
 .rightimg{
     display: flex;
-}
 
+}
 .itemWrap{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
-
 .menuname{
     display: flex;
     flex-direction: column;
-    text-align: left;
-}
-
-.itemWrap{
-    display: flex;
-    text-align: center;
-}
-
-.price{
     font-size: 32px;
 }
-
-.topWapper{
-    display: flex;
-    gap: 149px;
+.itemname{
+    
 }
-
-.topcontents{
-    display: flex;
-    margin: 80px 0 0 25px;
+.price{
+    font-size: 32px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-.middleWapper{
+.topitem{
     display: flex;
-    gap: 149px;
 }
-
-.middlecontents{
+.middleitem{
     display: flex;
-    margin-top: 25px;
 }
-
-.bottomWapper{
+.bottomitem{
     display: flex;
-    gap: 149px;
-}
-
-.bottomcontents{
-    display: flex;
-    margin-top: 25px;
 }
