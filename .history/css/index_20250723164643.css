@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../images/壁紙例2.webp");
+    
+}
+#gnavi{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    background-color: rgba(171, 215, 183, 0.45);
+}

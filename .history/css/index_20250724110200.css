@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../images/壁紙例2.webp");
+    background-repeat: repeat;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #D9EDDF;
+    gap: 210px;
+}
+.mainvisual{
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+}
+.mainvisual img{
+    width: 100vh;
+    height: 100vh;
+}
+main{
+    padding: 0 120px;
+}
+#gnavi{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+}
+.consept-text{
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    /* gap: ; */
+
+}
+.aboutWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.cafe-ex{
+    /* width: 1320px; */
+    display: flex;
+    align-items: center;  
+}
+.leftimg{
+    display: flex;
+}
+.rightimg{
+    display: flex;
+}
+
+}
+.price{
+    font-size: 32px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.topitem{
+    display: flex;
+}
+.middleitem{
+    display: flex;
+}
+.bottomitem{
+    display: flex;
+}

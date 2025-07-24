@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../images/壁紙例2.webp");
+    background-repeat: repeat;
+        font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #D9EDDF;
+    gap: 210px;
+}
+.mainvisual{
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+}
+.mainvisual img{
+    width: 100vh;
+    height: 100vh;
+}
+main{
+    /* padding: 0 auto; */
+}
+#gnavi{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+}
+.consept-text{
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    /* gap: ; */
+
+}
+.aboutWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+/* .cafe-ex{
+    width: 1320px;
+    display: flex;
+    align-items: center;  
+} */
+.work{
+    gap: 75px;
+}
+.write{
+    gap: 27px;
+}
+.talk{
+    gap: 85px;
+}
+.Website{
+    gap: 75px;
+}
+.leftimg{
+    display: flex;
+    gap: ;
+}
+.rightimg{
+    display: flex;
+}
+.itemWrap{
+    display: flex;
+    flex-direction: column;
+}
+.menuname{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+}
+.price{
+    font-size: 32px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.topitem{
+    display: flex;
+}
+.middleitem{
+    display: flex;
+}
+.bottomitem{
+    display: flex;
+}
