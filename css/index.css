@@ -5,33 +5,67 @@
 
 body{
     background-image: url("../images/壁紙例2.webp");
-    background-size: auto;
+    background-size: cover;
     background-repeat: repeat;
         font-family: "Kaisei Opti", serif;
     font-weight: 400;
     font-style: normal;
 }
-
+.logo{
+    margin-left: 20px;
+}
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: #D9EDDF;
-    gap: 210px;
+    padding: 25px 0;
+}
+
+.aboutWrap h2{
+    margin: 55px 0 0 5px;
+}
+.consept-text{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.border1{
+    display: flex;
+    border-right: 1px solid #000;
+}
+
+.border2{
+    display: flex;
+    border-right: 1px solid #000;
+}
+
+.border3{
+    display: flex;
+    border-right: 1px solid #000;
+}
+
+.border4{
+    display: flex;
+    border-right: 1px solid #000;
+}
+
+li{
+    /* border-right:1px solid #000 ; */
+    padding-right: 30px;
 }
 
 .mainvisual{
-    width: auto;
+    width: 100%;
     height: 900px;
+    background-image: url(../images/cafe.svg);
+    background-size:cover ;
+    background-repeat: no-repeat;
     text-align: center;
     object-fit: fill; 
 }
 
-/* .mainvisual img{
-    display: block;
-    width: 100vw;
-    height: 100vh;
-} */
 main{
     /* padding: 0 auto; */
         margin: 0 120px;
@@ -70,13 +104,13 @@ main{
     gap: 30px;
 }
 
-.work{
-    gap: 75px;
+.write{
+    gap: 27px;
     display: flex;
 }
 
-.write{
-    gap: 27px;
+.work{
+    gap: 75px;
     display: flex;
 }
 
